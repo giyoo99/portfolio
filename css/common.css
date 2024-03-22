@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+body { font-family: 'Philosopher','Arita-dotum',sans-serif; font-size: 1.6rem; line-height: 1.5; word-break: keep-all; }
+#wrap { overflow-x: hidden; min-width: 320px; position: relative; }
+
+.inner { max-width: calc(100% - 200px); margin: 0 auto; }
+
+@media (max-width : 1600px) {
+    .inner { max-width: calc(100% - 160px);}
+}
+@media (max-width : 1400px) {
+    .inner { max-width: calc(100% - 140px);}
+}
+@media (max-width : 1200px) {
+    .inner { max-width: calc(100% - 120px);}
+}
+@media (max-width : 1000px) {
+    .inner { max-width: calc(100% - 100px);}
+}
+@media (max-width : 768px) {
+    .inner { max-width: calc(100% - 80px);}
+}
+@media (max-width : 500px) {
+    .inner { max-width: calc(100% - 40px);}
+}
+
+/* popup */
+
+
+/* sitemap */
+
+
+
+
+
+/* header */
+#header { background: #F9D60A; }
+#header .inner { padding-top: 10px; height: 80px; align-items: center; display: flex; justify-content: space-between; }
+
+/* gnb */
+.gnb { display: flex; gap: 10px; align-items: center; }
+/* mgnb */
+
+/* pc 안보이게 mobile 보이게 */
+
+
+
+/* footer */
